@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+.Scoreboard{
+    width:80%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 4em;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo{
+    height: 70%;
+    width: 30%;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    background-color: #fff;
+    align-items: center;
+    width: 25%;
+    border-radius: 2px;
+}
+
+span{  
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.score-text{
+    color: #00f;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.score-points{
+    font-size: 32px;
+    font-weight: 700;
+    color: #444;
+}
